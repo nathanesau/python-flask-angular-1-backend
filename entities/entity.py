@@ -4,12 +4,9 @@ from datetime import datetime
 from sqlalchemy import create_engine, Column, String, Integer, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from flask import current_app
 
-db_url = 'localhost:5432'
-db_name = 'esna0001'
-db_user = 'esna0001'
-db_password = 'tablature'
-engine = create_engine(f'sqlite:///app.db')
+engine = create_engine(current_app.config['SQLALCHEMY_DATABASE_URI'])
 Session = sessionmaker(bind=engine)
 
 Base = declarative_base()
