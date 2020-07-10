@@ -1,8 +1,8 @@
 from flask_cors import CORS
 from flask import Flask, jsonify, request, Response
 
-from .entities.entity import Session, engine, Base
-from .entities.exam import Exam, ExamSchema
+from entities.entity import Session, engine, Base
+from entities.exam import Exam, ExamSchema
 
 import json
 import time
