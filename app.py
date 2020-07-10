@@ -11,7 +11,6 @@ import threading
 
 # creating the Flask application
 app = Flask(__name__)
-app.config.from_pyfile('settings.py')
 CORS(app)
 
 # if needed, generate database schema
