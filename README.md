@@ -25,5 +25,5 @@ heroku logs -n 100
 
 Endpoints:
 
-``/exams``: for example ``curl https://enigmatic-oasis-17388.herokuapp.com/exams``
-``/time``: for example ``curl https://enigmatic-oasis-17388.herokuapp.com/time``
+* ``/exams``: for example ``curl https://enigmatic-oasis-17388.herokuapp.com/exams``
+* ``/time``: for example ``curl https://enigmatic-oasis-17388.herokuapp.com/time``
