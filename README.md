@@ -10,7 +10,7 @@ Open repository then
 git push heroku master
 ```
 
-to update the API running [https://enigmatic-oasis-17388.herokuapp.com/](here)
+to update the API running [here](https://enigmatic-oasis-17388.herokuapp.com/)
 
 ## Server logs
 
